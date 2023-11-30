@@ -1,0 +1,34 @@
+.TodoList {
+    li {
+        padding: 15px 30px;
+        border-bottom: 1px solid #dcdcdc;
+        background: tomato;
+        span {
+            margin-right: 20px;
+            font-size: 16px;
+            color: #fff;
+            cursor: pointer;
+            user-select: none;
+        }
+        em {
+            color: #fff;
+            cursor: pointer;
+            user-select: none;
+        }
+        button {
+            float: right;
+            width: 80px;
+        }
+        &.on {
+            span {
+                color: yellow;
+                user-select: none;
+            }
+            em {
+                color: yellow;
+                text-decoration: line-through;
+                user-select: none;
+            }
+        }
+    }
+}

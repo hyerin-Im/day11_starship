@@ -1,0 +1,20 @@
+.TodoForm {
+    text-align: center;
+    padding: 40px 0;
+    background: pink;
+    input {
+        width: 400px;
+        height: 45px;
+        padding: 0 20px;
+        box-sizing: border-box;
+        vertical-align: top;
+    }
+    button {
+        width: 100px;
+        height: 45px;
+        margin-left: 10px;
+        border: none;
+        background: hotpink;
+        color: #fff;
+    }
+}

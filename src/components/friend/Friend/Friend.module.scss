@@ -1,0 +1,50 @@
+.wrap {
+    width: 950px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    .con1 {
+        width: 400px;
+        border: 1px solid #000;
+        padding: 25px;
+        position: relative;
+        overflow-y: scroll;
+        height: 720px;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        h2 {
+            font-size: 25px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+    }
+    .btn {
+        text-align: center;
+        button {
+            padding: 15px 45px;
+            border: none;
+            background: #000;
+            outline: none;
+            margin-right: 10px;
+            color: #fff;
+            border: none;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+    .chk {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        border-radius: 30px;
+        display: block;
+        background: #333;
+        color: #fff;
+        width: 100px;
+        text-align: center;
+        padding: 15px 5px;
+        font-size: 12px;
+    }
+}
